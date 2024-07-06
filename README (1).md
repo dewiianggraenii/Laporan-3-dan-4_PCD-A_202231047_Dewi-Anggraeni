@@ -68,7 +68,7 @@ Ekstraksi fitur menggunakan skimage (scikit-image) adalah proses yang esensial d
 
 - HSV (Hue-Saturation-Value): Sistem warna yang memisahkan informasi warna (Hue), kejenuhan (Saturation), dan nilai kecerahan (Value) dari gambar.
 
-## Langkah-langkah Ekstraksi Fitur dengan skimage
+## Langkah-langkah Ekstraksi Fitur dengan skimage RGB ke HSV
 - Memuat Gambar: Menggunakan io.imread() untuk memuat gambar dari file.
 
 - Konversi Warna: Menggunakan color.rgb2hsv() untuk mengubah gambar dari RGB ke HSV.
